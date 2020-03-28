@@ -130,7 +130,7 @@ footer p{
 	}
 	.container{
 		grid-template-columns: 1fr;
-		padding-bottom: 8%;
+		padding-bottom: 11%;
 		grid-gap: 4%;
 	}
 	.container .apple{
@@ -140,26 +140,29 @@ footer p{
 		margin-left: 10%;
 	}
 	header p{
-		font-size: 1.2rem;
+		font-size: 0.7rem;
 	}
 	.wrapper{
 		grid-template-columns: 1fr;
 		text-align: none;
 		align-items: unset;
 		grid-gap: 4%;
-		padding-top: 1%;
+		padding-top: 2.5%;
 	}
 	.wrapper p{
 		font-size: 0.7rem;
 	}
 	.wrapper .testemonial_2{
-		margin-left: 15%;
+		margin-left: 5%;
+	}
+	.wrapper .testemonial_1{
+		margin-left: 5%;
 	}
 	.testemonial h1{
-		margin-left: 13%;
+		margin-left: 3%;
 		padding-top: 3%;
 	}
 	footer{
-		margin-top: 7%;
+		margin-top: 12%;
 	}
 }
