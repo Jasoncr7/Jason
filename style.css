@@ -117,3 +117,43 @@ footer p{
 	margin: auto;
 	font-size: 30pt;
 }
+@media (max-width: 760px) {
+	html{
+		font-family: Gabriola, Sans-serif;
+	}
+	.real{
+		margin-left: 30%;
+		padding-top: 2.2%;
+	}
+	.container p{
+		font-size: 0.6rem;
+	}
+	.container{
+		grid-template-columns: 1fr;
+		padding-bottom: 8%;
+	}
+	.container .apple{
+		margin-left: 10%;
+	}
+	.container .windows{
+		margin-left: 10%;
+	}
+	header p{
+		font-size: 1.2rem;
+	}
+	.wrapper{
+		grid-template-columns: 1fr;
+		text-align: none;
+		align-items: unset;
+		grid-gap: 4%;
+	}
+	.wrapper p{
+		font-size: 0.7rem;
+	}
+	.wrapper .testemonial_2{
+		margin-left: 15%;
+	}
+	.testemonial h1{
+		margin-left: 13%;
+	}
+}
