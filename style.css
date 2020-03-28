@@ -117,7 +117,7 @@ footer p{
 	margin: auto;
 	font-size: 30pt;
 }
-@media (max-width: 1000px) {
+@media (max-width: 760px) {
 	html{
 		font-family: Gabriola, Sans-serif;
 	}
@@ -131,6 +131,7 @@ footer p{
 	.container{
 		grid-template-columns: 1fr;
 		padding-bottom: 8%;
+		grid-gap: 4%;
 	}
 	.container .apple{
 		margin-left: 10%;
@@ -146,6 +147,7 @@ footer p{
 		text-align: none;
 		align-items: unset;
 		grid-gap: 4%;
+		padding-top: 1%;
 	}
 	.wrapper p{
 		font-size: 0.7rem;
@@ -155,5 +157,9 @@ footer p{
 	}
 	.testemonial h1{
 		margin-left: 13%;
+		padding-top: 3%;
+	}
+	footer{
+		margin-top: 7%;
 	}
 }
